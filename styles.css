@@ -18,7 +18,7 @@ body {
 .container {
   width: 90%;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 .image{
     max-width: 100%;
@@ -49,6 +49,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 1em 0em;
+  margin: 0 auto;
 }
 .nav-title {
   color: #3a3a3a;
@@ -90,8 +91,20 @@ body {
     font-size: 3rem;
     color: var(--text-color);
  }
- .banner-pic{
-    padding-right: 1.3em;
+  
+
+ /* ======================
+ sponsers section styles
+ ======================== */
+ 
+ .sponser-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    padding: .8em 0em;
+
  }
 
 
@@ -107,10 +120,12 @@ body {
         text-align: center;
         margin: 1.8em auto;
          background-image: none;
+         height: auto;
     }
     .banner-pic{
         padding: 1em;
     }
+    
 }
 
 /* for medium devices  */
