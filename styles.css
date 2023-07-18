@@ -136,8 +136,11 @@ feature section styles
 /* for small devices  */
 @media screen and (max-width: 576px) {
   .nav-container,
-  .banner-container {
+  .banner-container{
     flex-direction: column;
+  }
+  .feature-container{
+    flex-direction: column-reverse;
   }
   .banner-container {
     text-align: center;
@@ -155,6 +158,25 @@ feature section styles
     text-align: center;
    }
 }
+/* footer styles --- */
+footer{
+    text-align: center;
+    color: #fff;
+    background: #0A0826;
+    padding: 1.2em 1em;
+}
+footer p{
+    padding: .4em 0;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: .4em 0;
+    
+
+}
 
 /* for medium devices  */
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -162,7 +184,11 @@ feature section styles
     background-image: none;
   }
   .collection-container{
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:1fr;
   }
+  .feature-container{
+    flex-direction: column-reverse;
+  }
+  
  
 }
