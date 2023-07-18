@@ -17,7 +17,7 @@ body {
 .container {
   width: 90%;
   max-width: 1440px;
-  margin: 3rem auto;
+  margin: 4rem auto;
 }
 .image {
   max-width: 100%;
@@ -80,6 +80,7 @@ body {
   background-image: url("./images/Circle\ design.svg");
   background-repeat: no-repeat;
   background-position: right;
+  margin: 0 auto;
 }
 .banner-content h2 {
   font-weight: 700;
@@ -118,6 +119,16 @@ body {
 .collection-desc {
   max-width: 100%;
   color: var(--text-color);
+}
+/* ===================
+feature section styles
+======================  */
+.feature-container{
+    display: flex;
+    align-items: center;
+     gap: 5rem;
+     padding: 1em;
+    
 }
 
 /* media queries =============================== */
